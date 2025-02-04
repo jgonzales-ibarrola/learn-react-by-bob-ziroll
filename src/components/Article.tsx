@@ -8,11 +8,11 @@ const ArticleThumbnail = () => {
 	} = useArticle();
 
 	return (
-		<div className="max-w-[96px] flex-none">
+		<div className="w-[125px] h-[168px] flex-none">
 			<img
 				src={src}
 				alt={alt}
-				className="h-full object-cover rounded-md"
+				className="w-full h-full object-cover rounded-sm"
 			/>
 		</div>
 	);
