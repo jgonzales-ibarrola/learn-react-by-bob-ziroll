@@ -12,3 +12,9 @@
 
 // 5). Custom Hook for consuming context
 // - 
+
+import { createContext } from 'react';
+
+import { ArticleData } from '../types/articleTypes';
+
+export const ArticleContext = createContext<ArticleData | null>(null);
